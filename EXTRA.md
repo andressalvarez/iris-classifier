@@ -66,34 +66,6 @@
 - [ ] **Tests:** `pytest tests/` pasa todos los casos
 - [ ] **Docker:** `docker run` funciona correctamente
 
-### **Preguntas Inteligentes para la Entrevista**
-
-#### **Sobre MLOps:**
-1. *"¿Cómo manejan el versioning de modelos en producción?"*
-2. *"¿Qué estrategias usan para A/B testing de modelos?"*
-3. *"¿Cómo monitorean drift de datos en tiempo real?"*
-
-#### **Sobre Escalabilidad:**
-1. *"¿Cómo optimizan la inferencia para millones de requests/día?"*
-2. *"¿Qué arquitectura usan para microservicios de ML?"*
-3. *"¿Cómo manejan el caching de predicciones?"*
-
-#### **Sobre Calidad:**
-1. *"¿Qué métricas de calidad de código aplican en ML?"*
-2. *"¿Cómo validan la calidad de datos en pipelines automatizados?"*
-3. *"¿Qué estrategias usan para testing de modelos?"*
-
-### **Respuestas Preparadas**
-
-#### **"¿Por qué elegiste Logistic Regression?"**
-> "Para este dataset, LR es ideal porque: 1) Los datos son linealmente separables (EDA lo confirma), 2) Necesito interpretabilidad para explicar decisiones, 3) Es rápido para inferencia en producción, 4) Funciona bien con datasets pequeños. En producción, probaría Random Forest para robustez."
-
-#### **"¿Cómo mejorarías este modelo?"**
-> "1) Feature engineering: ratios petal/sepal, áreas, 2) Ensemble methods: VotingClassifier con LR, RF, SVM, 3) Hyperparameter tuning más exhaustivo, 4) Cross-validation estratificado, 5) Data augmentation si fuera necesario."
-
-#### **"¿Cómo lo desplegarías en producción?"**
-> "1) Containerización con Docker + Kubernetes, 2) API Gateway para rate limiting, 3) Redis para caching, 4) Prometheus + Grafana para monitoring, 5) CI/CD con testing automatizado, 6) Blue-green deployment para zero downtime."
-
 ### **Comandos de Emergencia**
 ```bash
 # Si algo falla, estos comandos te salvan:
