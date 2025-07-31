@@ -179,10 +179,6 @@ make security      # Security checks
 - **Developer Experience:** Makefile, comprehensive documentation
 - **Modern Stack:** FastAPI, type hints, async programming
 
-## :memo: Additional Resources
-
-- **[Historias de experiencia y checklist para entrevistas](EXTRA.md)**
-
 ## :page_facing_up: License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
