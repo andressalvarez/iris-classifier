@@ -66,7 +66,7 @@
 - [ ] **Tests:** `pytest tests/` pasa todos los casos
 - [ ] **Docker:** `docker run` funciona correctamente
 
-### **Preguntas Inteligentes para el Entrevistador**
+### **Preguntas Inteligentes para la Entrevista**
 
 #### **Sobre MLOps:**
 1. *"¿Cómo manejan el versioning de modelos en producción?"*
@@ -112,4 +112,4 @@ curl -f http://localhost:8000/health  # Verificar API
 
 ---
 
-**🎯 Recuerda: El objetivo no es solo mostrar código, sino demostrar pensamiento de ingeniero y capacidad de resolver problemas reales.**
+**🎯 Recuerda: El objetivo es demostrar pensamiento de ingeniero y capacidad de resolver problemas reales.**
